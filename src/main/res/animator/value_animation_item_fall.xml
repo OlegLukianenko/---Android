@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+
+    <animator
+        android:valueType="intType"
+        android:duration="300"
+        android:valueFrom="150dp"
+        android:valueTo="0"/>
+    <!--ширина кнопки-->
+
+    <animator
+        android:valueType="floatType"
+        android:duration="300"
+        android:valueFrom="18"
+        android:valueTo="0"/>
+    <!--размер шрифта-->
+
+    <animator
+        android:valueType="intType"
+        android:duration="300"
+        android:valueFrom="-150dp"
+        android:valueTo="0"/>
+    <!--позиция элемента списка по x-->
+
+</set>

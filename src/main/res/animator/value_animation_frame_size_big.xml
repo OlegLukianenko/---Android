@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+
+    <animator
+        android:duration="300"
+        android:valueType="intType"
+        android:valueFrom="9dp"
+        android:valueTo="270dp"
+        />
+
+    <animator
+        android:valueType="floatType"
+        android:duration="600"
+
+        android:valueFrom="0.1"
+        android:valueTo="1.0"/>
+
+</set>
